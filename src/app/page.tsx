@@ -5,7 +5,7 @@ import HeroSection from "../app/Components/HeroSection"
 
 const page = () => {
   return (
-    <div>
+    <div className=''>
       <HeroSection/>
       <UserCategories/>
       <FAQ/>

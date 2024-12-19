@@ -38,7 +38,7 @@ export default function FAQ() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#09061A] to-[#111827] p-8">
+    <div className="min-h-screen  p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-5xl font-normal text-center mb-16 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
           Frequently asked questions
