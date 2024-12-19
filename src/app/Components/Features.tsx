@@ -69,7 +69,7 @@ export default function EmailFeatures() {
       <div className="max-w-7xl mx-auto lg:grid lg:grid-cols-2 flex-row">
         {/* Header Section */}
         <div className="max-w-xl mb-16">
-          <h1 className="text-5xl font-semibold mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
+          <h1 className="text-5xl font-medium mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
             Rock solid email verification
           </h1>
           <p className="text-gray-400 text-lg mb-8">
