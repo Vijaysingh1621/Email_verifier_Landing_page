@@ -1,5 +1,6 @@
 import { Mail, CheckCircle } from 'lucide-react'
 import imageright from "../../../public/imageRight.svg"
+import imageleft from "../../../public/imageLeft.svg"
 import Image from 'next/image'
 
 export default function EmailVerifier() {
@@ -44,8 +45,10 @@ export default function EmailVerifier() {
               ))}
             </ul>
 
-            <button className="px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-colors duration-200 shadow-lg shadow-blue-500/20">
-              Dive in!
+            {/* Button */}
+        
+        <button className="px-8 py-3 text-lg font-medium text-white bg-gradient-1 rounded-[15px] hover:bg-gradient-2 transition-colors duration-200 shadow-lg shadow-blue-500/20">
+            Dive in!
             </button>
           </div>
         </div>
@@ -60,6 +63,49 @@ export default function EmailVerifier() {
 
             {/* Avatar Group */}
            
+              
+        {/* Left Column - Dashboard Preview */}
+        <div className=''>
+                <Image src={imageleft} alt="imageRight"/>
+        </div>
+
+
+
+           {/* Right Column - API Description */}
+        <div className="space-y-8">
+          <div className="flex items-center gap-2 text-gray-400">
+            <code>&lt;/&gt;</code>
+            <span className="text-xl">Email Verification API</span>
+          </div>
+
+          <h2 className="text-4xl font-semibold text-gray-200">
+            Prevent inaccurate data with real-time email validation
+          </h2>
+
+          <p className="text-lg text-gray-400">
+            Guard your system against inaccurate data by instantly filtering out invalid addresses!
+          </p>
+
+          <ul className="space-y-4">
+            {[
+              'Elegant and secure HTTPS-based RESTful API, with JSON as its core data format',
+              'Validate emails before they enter your database',
+              "Integrate the Verifier's real-time API into your website's registration process."
+            ].map((feature, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 mt-1 text-green-400 shrink-0" />
+                <span className="text-gray-300">{feature}</span>
+              </li>
+            ))}
+          </ul>
+          {/* Button */}
+        
+        <button className="px-8 py-3 text-lg font-medium text-white bg-gradient-1 rounded-[15px] hover:bg-gradient-2 transition-colors duration-200 shadow-lg shadow-blue-500/20">
+            Dive in!
+            </button>
+          </div>
+
+       
           
       </div>
     </div>

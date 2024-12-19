@@ -4,6 +4,8 @@ import FAQ from './Components/Faq'
 import HeroSection from "../app/Components/HeroSection"
 import HowItWorks from './Components/HowItWorks'
 import Verifier from "../app/Components/Verifier";
+import Features from "../app/Components/Features"
+import Footer from "../app/Components/Footer"
 
 const page = () => {
   return (
@@ -11,8 +13,10 @@ const page = () => {
       <HeroSection/>
       <HowItWorks/>
       <Verifier/>
+      <Features/>
       <UserCategories/>
       <FAQ/>
+      <Footer/>
       
     </div>
   )
