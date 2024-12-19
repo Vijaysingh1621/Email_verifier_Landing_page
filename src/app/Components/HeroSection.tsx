@@ -5,18 +5,34 @@ import brand3 from "../../../public/outreach-clerk-new.svg";
 import brand4 from "../../../public/og-new.svg";
 import brand5 from "../../../public/xlr-media-new.svg";
 import Image from "next/image";
+import backgroundblur from "../../../public/background blur.svg"
 
 export default function EmailVerifier() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#09061A] to-[#111827] flex flex-col items-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#09061A] to-[#111827] flex flex-col items-center px-4 "  >
+       
+
       {/* Logo */}
       <div className="flex items-center gap-2 pt-8 self-start ml-8">
       <Image src={logo} alt="logo" />
       </div>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full text-center ">
-        <h1 className="lg:text-7xl text-6xl font-semibold mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
+      {/* <svg width="1120" height="831" viewBox="0 0 1280 831" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_f_1002_637)">
+            <ellipse cx="640" rx="570" ry="231" fill="#505CAD"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1002_637" x="-530" y="-831" width="2340" height="1662" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="300" result="effect1_foregroundBlur_1002_637"/>
+            </filter>
+            </defs>
+            
+            </svg> */}
+      <main className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full text-center mt-[107px] " >
+        <h1 className="lg:text-7xl text-7xl font-semibold mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
           Email Checker
         </h1>
         <h1 className="lg:text-7xl text-6xl  font-semibold mb-8 bg-gradient-to-b from-gray-200 to-gray-500 text-transparent bg-clip-text">
@@ -37,7 +53,7 @@ export default function EmailVerifier() {
             />
             <button 
               
-              className="bg-gradient-3 py-4  rounded-[15px] text-[19px] hover:bg-blue-700 text-white  px-10 mr-1"
+              className="bg-gradient-3 py-4  rounded-[15px] text-[17px] lg:text-[19px] hover:bg-blue-700 text-white  lg:px-10 px-5 mr-1"
             >
               Verify
             </button>
@@ -47,7 +63,7 @@ export default function EmailVerifier() {
 
       <div className="p-8 flex justify-center items-center flex-col mt-10 w-full">
         <h4 className="lg:text-[20px] text-[14px] md:text-[15px]  text-gray-300 mb-[19px] p-5">
-          Modern companies are using <span className="font-semibold">email verifier</span>
+          Modern companies are using <span className="font-semibold"> verifier</span>
         </h4>
         <div className="flex flex-wrap justify-evenly  items-center w-full  gap-8 md:gap-6 lg:gap-8">
           <Image src={brand1} alt="brand1" className="h-auto lg:h-[40px] w-auto" />

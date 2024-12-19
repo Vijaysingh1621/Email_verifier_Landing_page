@@ -18,5 +18,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: poppins, Arial, Helvetica, sans-serif;
-  @apply bg-gradient-to-br from-[#09061A] to-[#111827] 
+  @apply  bg-gradient-to-br from-[#09061A] to-[#111827]
 }
