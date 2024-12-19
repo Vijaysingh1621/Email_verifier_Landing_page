@@ -76,7 +76,8 @@ export default function EmailVerifier() {
 
       {/* Loading Slider */}
       {isLoading && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+        <div className="fixed inset-0 z-50 flex items-center flex-col gap-5 justify-center bg-black/50 backdrop-blur-sm">
+            <h4 className="">verifying your email in real time...</h4>
           <div className="w-48 h-1 bg-gradient-to-r from-indigo-500 via-blue-500 to-purple-500 animate-pulse rounded-full"></div>
         </div>
       )}
