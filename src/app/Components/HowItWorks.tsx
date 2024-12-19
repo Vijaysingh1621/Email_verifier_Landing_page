@@ -4,6 +4,7 @@ import icon2 from "../../../public/icon (3).svg"
 import icon3 from "../../../public/icon (4).svg"
 import Image from 'next/image'
 
+
 export default function HowItWorks() {
   const steps = [
     {

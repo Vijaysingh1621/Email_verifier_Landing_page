@@ -1,5 +1,6 @@
 import { Mail, CheckCircle } from 'lucide-react'
-
+import imageright from "../../../public/imageRight.svg"
+import Image from 'next/image'
 
 export default function EmailVerifier() {
   return (
@@ -50,7 +51,9 @@ export default function EmailVerifier() {
         </div>
 
         {/* Right Column - Dashboard Preview */}
-       
+              <div className=''>
+                <Image src={imageright} alt="imageRight"/>
+              </div>
 
             {/* Email List */}
            

@@ -49,7 +49,7 @@ export default function EmailVerifier() {
             <input 
               type="email"
               placeholder="Enter an email to verify"
-              className="flex-1 pl-7 bg-transparent border-0 text-gray-200 placeholder:text-gray-300 focus-visible:ring-0 focus-visible:ring-offset-0 text-lg py-6"
+              className="flex-1 pl-7 bg-transparent border-0 text-gray-200 placeholder:text-gray-300  focus-visible:ring-0 focus-visible:ring-offset-0 text-lg py-6 focus:outline-none "
             />
             <button 
               
