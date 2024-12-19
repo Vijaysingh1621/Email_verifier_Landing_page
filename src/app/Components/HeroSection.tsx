@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from "react";
 import logo from "../../../public/logo.svg";
@@ -12,6 +12,15 @@ import OnboardingModal from "../Components/BoardingModal";
 
 export default function EmailVerifier() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleVerify = () => {
+    setIsLoading(true); // Show the loading slider
+    setTimeout(() => {
+      setIsLoading(false); // Hide the loading slider
+      setIsModalOpen(true); // Open the modal
+    }, 3000); // Simulate a 3-second loading time
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#09061A] to-[#111827] flex flex-col items-center px-4">
@@ -42,7 +51,7 @@ export default function EmailVerifier() {
               className="flex-1 pl-7 bg-transparent border-0 text-gray-200 placeholder:text-gray-300 focus-visible:ring-0 focus-visible:ring-offset-0 text-lg py-6 focus:outline-none"
             />
             <button
-              onClick={() => setIsModalOpen(true)}
+              onClick={handleVerify}
               className="bg-gradient-3 py-4 rounded-[15px] text-[17px] lg:text-[19px] hover:bg-blue-700 text-white lg:px-10 px-5 mr-1"
             >
               Verify
@@ -64,6 +73,13 @@ export default function EmailVerifier() {
           <Image src={brand5} alt="brand5" className="h-auto lg:h-[40px] w-auto" />
         </div>
       </div>
+
+      {/* Loading Slider */}
+      {isLoading && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+          <div className="w-48 h-1 bg-gradient-to-r from-indigo-500 via-blue-500 to-purple-500 animate-pulse rounded-full"></div>
+        </div>
+      )}
 
       {/* Modal */}
       {isModalOpen && <OnboardingModal onClose={() => setIsModalOpen(false)} />}
