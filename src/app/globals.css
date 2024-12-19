@@ -16,6 +16,7 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #09061A;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  @apply bg-gradient-to-br from-[#09061A] to-[#111827] 
 }
