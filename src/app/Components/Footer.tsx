@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function VerifierFooter() {
   return (
-    <div className="min-h-screen  flex flex-col">
+    <div className="min-h-screen flex flex-col bg-gradient-radial-3">
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-6xl md:text-7xl font-medium mb-2">

@@ -21,14 +21,15 @@ export default function VerifierUsers() {
             {/*left side cards*/}
             <div className='flex flex-col lg:gap-7 gap-12 mb-10 lg:mb-0  '>
                  {/* Card 1 */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-gray-300">
+          <div className=" bg-gradient-radial rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-b-0  border-gray-700" >
+            
             <Image src={user} alt="user" className="w-15 h-15 text-white " />
             <span className="text-[22px] text-gray-200">Sales and marketing teams</span>
           </div>
 
 
             {/* Card 4 */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-gray-300">
+          <div className=" bg-gradient-radial rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-b-0 border-gray-700">
           <Image src={laptop} alt="user" className="w-15 h-15 text-white" />
             <span className="text-[22px] text-gray-200">Software & IT companies</span>
           </div>
@@ -37,7 +38,7 @@ export default function VerifierUsers() {
          
 
           {/* Central Card */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 rounded-2xl py-8 px-6 mb-[20px] backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)]  border-[1px] border-gray-300 flex-col justify-center  items-start w-[300px] ml-10 ">
+          <div className=" bg-gradient-radial rounded-2xl py-8 px-6 mb-[20px] backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)]  border-[1px] border-gray-700 flex-col justify-center  items-start w-[300px] border-b-0 ml-10 ">
          
             <h2 className="text-4xl font-medium text-left mb-10 bg-gradient-to-b from-gray-200 to-gray-400 text-transparent bg-clip-text">
               Irreplaceable tool for businesses
@@ -54,13 +55,13 @@ export default function VerifierUsers() {
              <div className='flex flex-col gap-7 '>
 
                   {/* Card 3 */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-gray-300">
+          <div className=" bg-gradient-radial rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-b-0 border-gray-700">
           <Image src={contactless} alt="user" className="w-15 h-15 text-white" />
             <span className="text-[22px] text-gray-200">Recruiters</span>
           </div>
 
           {/* Card 6 */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-gray-300">
+          <div className=" bg-gradient-radial rounded-2xl p-6 backdrop-blur-xl shadow-[0_0_45px_-5px_rgba(0,0,0,0.2)] flex-col gap-10 items-center  border-[1px] border-b-0  border-gray-700">
           <Image src={ImportantDevice} alt="user" className="w-15 h-15 text-white" />
             <span className="text-[22px] text-gray-200">Backlinks outreach</span>
           </div>

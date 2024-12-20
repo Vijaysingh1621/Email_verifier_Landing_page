@@ -20,3 +20,24 @@ body {
   font-family: poppins, Arial, Helvetica, sans-serif;
   @apply  bg-gradient-to-br from-[#09061A] to-[#111827]
 }
+
+
+    .bg-gradient-radial {
+      background: radial-gradient(circle at top center, #272436 -40%, rgba(0, 0, 0, 0.5));
+      background-blend-mode: normal;
+    }
+    .bg-gradient-radial-1 {
+      background: radial-gradient(circle at top center, #1e2a4a 0%, rgba(0, 0, 0, 0.5));
+      background-blend-mode: normal;
+    }
+    .bg-gradient-radial-2 {
+      background: radial-gradient(circle at bottom center,  #30273D -50%, rgba(0, 0, 0, 0.5));
+      background-blend-mode: normal;
+    }
+    .bg-gradient-radial-3 {
+      background: radial-gradient(circle at bottom right,  #1e2a4a -50%, rgba(0, 0, 0, 0.5));
+      background-blend-mode: normal;
+    }
+   
+   
+

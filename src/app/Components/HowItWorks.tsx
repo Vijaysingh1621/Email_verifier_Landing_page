@@ -25,7 +25,7 @@ export default function HowItWorks() {
   ]
 
   return (
-    <div className="min-h-screen p-6 sm:p-12 md:p-24 mb-[200px]">
+    <div className="min-h-screen bg-gradient-radial-2 p-6 sm:p-12 md:p-24 mb-[200px]">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium mb-6 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
           How it works
@@ -35,11 +35,11 @@ export default function HowItWorks() {
           It's super easy to verify your email addresses with Verifier.
         </p>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
+        <div className="grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 lg:mb-[200px]">
           {steps.map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-gradient-to-br from-gray-700/50 to-gray-800/50 backdrop-blur-xl flex items-center justify-center mb-4 sm:mb-6 shadow-lg">
-                <Image src={step.icon} alt="icon" className="w-12 h-12 sm:w-16 sm:h-16" />
+              <div className=" backdrop-blur-xl flex items-center justify-center mb-4 sm:mb-6 shadow-lg">
+                <Image src={step.icon} alt="icon" className="w-38 h-38 sm:w-16 sm:h-16" />
               </div>
               <h2 className="text-lg sm:text-2xl font-semibold text-gray-200 mb-2 sm:mb-3">
                 {step.title}
@@ -51,6 +51,8 @@ export default function HowItWorks() {
           ))}
         </div>
       </div>
+   
     </div>
+    
   )
 }
