@@ -73,7 +73,7 @@ export default function EmailVerifier() {
                   min="0"
                   max="100"
                   value={progress}
-                  onChange={(e) => setProgress(e.target.value)}
+                  onChange={(e) => setProgress(Number(e.target.value))}
                   className="absolute w-full h-2 opacity-0 cursor-pointer"
                 />
               </div>
