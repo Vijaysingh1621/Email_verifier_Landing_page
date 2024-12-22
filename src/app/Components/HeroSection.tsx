@@ -44,10 +44,10 @@ export default function EmailVerifier() {
 
       {/* Main Content */}
       <main className="flex-1 flex flex-col items-center justify-center max-w-3xl mx-auto w-full text-center mt-[107px]">
-        <h1 className="lg:text-7xl text-7xl font-semibold mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
+        <h1 className="lg:text-7xl text-5xl font-semibold mb-4 bg-gradient-to-b from-gray-100 to-gray-400 text-transparent bg-clip-text">
           Email Checker
         </h1>
-        <h1 className="lg:text-7xl text-6xl font-semibold mb-8 bg-gradient-to-b from-gray-200 to-gray-500 text-transparent bg-clip-text">
+        <h1 className="lg:text-7xl text-5xl font-semibold mb-8 bg-gradient-to-b from-gray-200 to-gray-500 text-transparent bg-clip-text">
           <span className="font-normal">and</span> Verifier
         </h1>
 
@@ -87,7 +87,7 @@ export default function EmailVerifier() {
               />
               <button
                 onClick={handleVerify}
-                className="bg-gradient-3 py-4 rounded-[15px] text-[17px] lg:text-[19px] hover:bg-blue-700 text-white lg:px-10 px-5 mr-1"
+                className="bg-gradient-3 py-4 rounded-[15px] text-[17px] lg:text-[19px] hover:bg-blue-700 text-white lg:px-10 px-5 ml-[-80px] mr-1"
               >
                 Verify
               </button>
