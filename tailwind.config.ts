@@ -13,7 +13,7 @@ export default {
         'gradient-linear-blue': 'linear-gradient(to right, #505CAD, #637CFF)',
         'gradient-linear-purple': 'linear-gradient(to right, #637CFF, #9B8AFF)',
         'gradient-linear-custom': 'linear-gradient(to right, #505CAD, #637CFF, #A0A4C5)',
-        'gradient-1': 'linear-gradient(to right, #a855f7, #3b82f6 , #3b82f6)', // First gradient
+        'gradient-1': 'linear-gradient(to right, #531FAD, #3b82f6 , #3b82f6)', // First gradient
         'gradient-2': 'linear-gradient(to right, #3b82f6, #a855f7, #1d4ed8)', // Second gradient
         'gradient-3': 'linear-gradient(to right, #2D58BD, #3A78D0, #1892F5)', // third gradient
       },
